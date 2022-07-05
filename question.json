@@ -1,0 +1,12 @@
+{
+    "1":{
+        "Q":"MS-Word is an example of _____",
+        "option":["An operating system","A processing device","Application software","An input device"],
+        "ans":"Application software"
+    },
+    "2":{
+        "Q":"Ctrl, Shift and Alt are called .......... keys.",
+        "option":["modifier","function","alphanumeric","adjustment"],
+        "ans":"modifire"
+    }
+}
