@@ -1,10 +1,14 @@
 'use strict'
 
 
-const qno = document.getElementById('Qno')
-const question = document.getElementById("question")
-const options = document.getElementById('options')
-const button = document.getElementById('button')
+// const qno = document.getElementById('Qno')
+// const question = document.getElementById("question")
+// const options = document.getElementById('options')
+// const button = document.getElementById('button')
+
+const main = document.getElementById("root")
+
+
 
 const questionJson = {
     1:{
@@ -23,4 +27,14 @@ for (let key in questionJson){
         console.log(questionJson[key]["Q"])
         console.log(questionJson[key]["option"])
         console.log(questionJson[key]["ans"])
+}
+
+
+function createEle(Q,option,ans) {
+    const mainContainer = document.createElement("div");
+    mainContainer.className = "mainContainer";
+    main.appendChild(mainContainer);
+
+    mainContainer.appendChild(document.createElement("h1").appendChild(document.createTextNode("Quiz")))
+    
 }
