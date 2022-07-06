@@ -1,0 +1,59 @@
+Computer Security
+
+Virus
+const questionJson = {
+    1:{
+        "Q":" What is “Trend Micro”?",
+        "option":["It is anti-virus software","It is just a program","It is virus program","None of the above"],
+        "ans":"It is anti-virus software"
+    },
+    2:{
+        "Q":"What is the name of the viruses that fool a user into downloading and/or executing them by pretending to be useful applications?",
+        "option":["Cracker","Worm","Trojan horses","Keylogger"],
+        "ans":"Trojan horses"
+    },
+    3:{
+        "Q":"The virus that spread in application software is called as_________",
+        "option":["Boot virus","Macro virus","File virus","Anti virus"],
+        "ans":"Macro virus"
+    },
+    4:{
+        "Q":"What is the virus that spread in computer?",
+        "option":[" It is hardware","It is system software","It is a computer program","It is a windows too"],
+        "ans":"It is a computer program"
+    },
+    5:{
+        "Q":"What is anti-virus?",
+        "option":["It is a computer","It is a program code","It is a company name","It is an application"],
+        "ans":"It is a program code"
+    }
+}
+
+Hacking
+const questionJson = {
+    1:{
+        "Q":"What are the types of hacking stages?",
+        "option":["Privileges Executing","Applications Hiding","Files Covering Tracks","All of the above"],
+        "ans":"All of the above"
+    },
+    2:{
+        "Q":"A Replay attack is an example of which type of attack?",
+        "option":["Active online attack","Offline attack","Passive online attackwrong","None of above"],
+        "ans":"None of above"
+    },
+    3:{
+        "Q":"FAT stands for",
+        "option":["File allocation tables","Forensic analysis tool","File allocation transfer wrong","Format allocation test"],
+        "ans":"File allocation tables"
+    },
+    4:{
+        "Q":"What does the term "Ethical Hacking" mean?",
+        "option":["Someone who is using his/her skills for defensive purposes","Someone who is hacking for ethical reasons","Someone who is using his/her skills for ethical reasons","Someone who is using his/her skills for offensive purposes"],
+        "ans":"Someone who is using his/her skills for defensive purposes"
+    },
+    5:{
+        "Q":"What are the two basic types of attacks ?",
+        "option":[" Active","Passive","DoS","Both 1 & 2"],
+        "ans":"Both 1 & 2"
+    },
+}

@@ -26,10 +26,10 @@
 }
 
 li{
-    padding: .3rem 1rem;
+    padding: .6rem 1rem;
     background-color: aliceblue;
-    margin: 9px;
-    border-radius: 5px;
+    margin: 4px;
+    border-radius: 3px;
     user-select: none;
 
 }
@@ -44,11 +44,12 @@ li:active{
 .button{
     background-color: rgb(105, 216, 105);
     padding: .5rem;
-    width: fit-content;
-    max-width: 200px;
     border-radius: 7px;
-    align-self: center;
     user-select: none;
+    margin-top: 1rem;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
 
 }
 
@@ -58,3 +59,13 @@ li:active{
 .button:active{
     transform: scale(.9);
 }
+
+p{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        width: 90%;
+    }
+  }
