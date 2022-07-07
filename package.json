@@ -1,0 +1,23 @@
+{
+  "name": "quiz-game",
+  "version": "1.0.0",
+  "description": "this is advanced quiz game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anisirji/Quiz-Game.git"
+  },
+  "author": "ani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anisirji/Quiz-Game/issues"
+  },
+  "homepage": "https://github.com/anisirji/Quiz-Game#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
