@@ -6,6 +6,14 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+.main{
+    background-color: rgb(62, 132, 194);
+    padding-bottom: 100px;
+    padding-top: 20px;
+
+}
+
 .mainContainer{
     display: flex;
     flex-direction: column;
@@ -13,10 +21,14 @@
     justify-content: center;
     margin-top: 20px;
 }
+.mainContainer>p{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
 
 .container{
-    margin-top: 5rem;
-    background-color: rgb(211, 211, 211);
+    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
     width: 50%;
     padding: 1rem;
 }
@@ -25,39 +37,48 @@
     margin-top: 1rem;
 }
 
-li{
+.li{
     padding: .6rem 1rem;
-    background-color: aliceblue;
+    background-color: rgb(230, 230, 230);
     margin: 4px;
     border-radius: 3px;
     user-select: none;
 
 }
+.select{
+    background-color: #5375e4;
+    color: aliceblue;
 
-li:hover{
-    background-color: antiquewhite;
 }
 
-li:active{
-    background-color: bisque;
+
+.li:hover{
+    background-color:  #5375e4;
+    color: aliceblue;
+}
+
+.li:active{
+    background-color: rgb(159, 185, 235);
 }
 .button{
     background-color: rgb(105, 216, 105);
     padding: .5rem;
     border-radius: 7px;
     user-select: none;
-    margin-top: 1rem;
+    margin: 1rem auto;
     width: 50%;
     margin-left: 25%;
     text-align: center;
-
+    transition: all .1s;
 }
 
 .button:hover{
     color: rgb(255, 255, 255);
+    /* box-shadow: #5375e4 1px 1px .15px; */
 }
 .button:active{
     transform: scale(.9);
+
 }
 
 p{
@@ -69,3 +90,13 @@ p{
         width: 90%;
     }
   }
+
+.hide {
+    display:none;
+}
+.disable{
+    pointer-events: none;
+}
+.show{
+    display: block;
+}

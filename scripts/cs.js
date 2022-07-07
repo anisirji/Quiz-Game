@@ -1,5 +1,3 @@
-
-
 const questionJson = {
     1:{
         "Q":" What is “Trend Micro”?",
@@ -22,11 +20,6 @@ const questionJson = {
         "ans":"It is a computer program"
     },
     5:{
-        "Q":"What is anti-virus?",
-        "option":["It is a computer","It is a program code","It is a company name","It is an application"],
-        "ans":"It is a program code"
-    },
-    6:{
         "Q":"What is anti-virus?",
         "option":["It is a computer","It is a program code","It is a company name","It is an application"],
         "ans":"It is a program code"
