@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
 
 ## Project Contributors
 
-- [Your Name](link to your GitHub profile) - Developer
+- [Aniket Singh] (https://github.com/anisirji) - Developer
 
 ## Future Enhancements
 
